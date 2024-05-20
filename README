@@ -1,0 +1,15 @@
+"""
+Microservice README
+
+The client is where the data gets requested, you can import your main file into the dunder method.
+This allows you to use the client to interact with the server which holds the information. This can
+be done by using socket.send() then socket.recv() to receive the message from the server.
+
+All of your variables and information can be imported to the server in order for you to interact with
+it. On the server end, you first receive then you send a message back to the client from the server.
+socket.recv() then socket.send()
+
+IMPORTANT:
+If you are receiving and printing strings, make sure you recv().decode('utf-8').
+Entire objects can be sent.
+"""
